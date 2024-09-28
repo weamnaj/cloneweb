@@ -1,0 +1,140 @@
+@import url(https://db.onlinewebfonts.com/c/70f3e46b3bb904260d1b1a6e0f2edf08?family=HM+Sans+Regular);
+
+.home-content{
+    margin: auto;
+}
+.C-Item a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #222222;
+    font-weight: bold;
+}
+
+.D-SH{
+    justify-content: space-around;
+
+}
+.D-SH div a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #222222;
+    font-weight: bold;
+}
+
+
+
+.campaign-container{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.campaign-hp a img{
+    width: 100%;
+    object-fit: cover;
+}
+.campaign-first-heading-hp a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 2;
+
+}
+
+
+.textbox{
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+
+}
+
+.campaign-caption-hp a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: 2;
+
+}
+
+.campaign-mobile{
+    position: relative;
+}
+
+.text{
+    padding: 20px;
+}
+
+
+.textbox-mobile{
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+}
+
+.campaign-heading-hp-mobile a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+
+.campaign-caption-hp-mobile a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+
+.campaign-btn{
+    z-index: 2;
+}
+
+.campaign-btn a{
+    text-decoration: none;
+    color: #222222;
+    background-color: white;
+    padding: 5px 20px;
+}
+
+.campaign-heading-hp a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 2;
+
+}
+
+.popular-filter-heading{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.popular-buttons{
+    border-radius: 20px;
+    padding: 8px 16px ;
+    margin: 8px;
+    border: 1px solid #222222;
+    background-color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
