@@ -1,0 +1,114 @@
+
+.container-fluid {
+    padding: 20px;
+}
+
+/* Sidebar styling */
+.sidebar {
+    border-right: 1px solid #ddd;
+    margin-left: 100px;
+    height: 100vh;
+    overflow-y: auto;
+    text-align: right;
+}
+
+/* Search bar section styling */
+.search-bar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-bar input {
+    width: 70%;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
+
+/* List of letters in the sidebar */
+.letter-list {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.letter-item {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Make the layout stack vertically on mobile */
+@media (max-width: 768px) {
+    .search-bar input {
+        width: 60%;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-bar button {
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    .back-button {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-size: 12px;
+    text-align: right;
+}
+
+.hover-col {
+    transition: background-color 0.3s ease;
+}
+
+.hover-col:hover {
+    background-color: black;
+}
+
+.hover-col:hover a {
+    color: white;
+}
+
+.hover-col:hover a .fa-icon {
+    color: white;
+}
+
+h4 {
+    text-align: right;
+}
+
+span {
+    padding-bottom: 3rem;
+}
