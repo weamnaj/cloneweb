@@ -1,25 +1,21 @@
-import HeaderMenu from "./component/layout/header/headerMenu";
-import Header from "./component/layout/header/headerMain";
-import RegisterPage from "../register";
+
+
 import "./App.css";
-// import LoginPage from "../login";
-import StoreSearch from "../locationMain";
-// import Favorites from "../Empty-fav";
-// import HeaderMenu from "./headerMenu";
 import "bootstrap/dist/css/bootstrap.min.css";
+
+import Header from "./components/layout/header/headerMain";
+import HeaderMenu from "./components/layout/header/headerMenu";
+import StoreSearch from "./pages/location/locationMain";
+// import LoginPage from "./pages/loginpage/login";
+// import ForgotPassword from "./pages/loginpage/forgetpassword";
 function App() {
-
-  return (
-    <>  
-        <Header/>
-        <HeaderMenu/>
-        {/* <LoginPage/>  */}
-
-      {/* <RegisterPage/>  */}
-      {/* <Favorites/> */}
-<StoreSearch/>
-    </>
-  );
+  return <>
+ <Header/>
+ <HeaderMenu/>
+ {/* <LoginPage/>
+ <ForgotPassword/> */}
+ <StoreSearch/>
+  </>;
 }
 
 export default App;
