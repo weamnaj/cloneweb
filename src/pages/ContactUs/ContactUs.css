@@ -9,7 +9,98 @@ h3 {
 .call-us .container {
   max-width: 1050px !important;
 }
+.form-check-input:checked {
+  background-color: #222 !important;
+}
+.form-floating > .form-control:not(:placeholder-shown) ~ label::after {
+  background-color: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
+.form-floating > .form-control ~ label::after {
+  background-color: transparent !important;
+  right: -50px !important;
+}
 .call-us-main {
   max-width: 400px !important;
+}
+.rat input {
+  border: 2px solid #222 !important;
+  box-shadow: none !important;
+}
+.row input {
+  background-color: transparent !important;
+  border-radius: 0;
+  padding: 1.2rem 0 0 0 !important;
+  border-bottom: 1px solid #222 !important;
+}
+.selected2 .col-6 {
+  border-bottom: 1px solid #222 !important;
+  width: 45%;
+  text-align: center !important;
+  margin-right: 10px;
+  padding: 0 !important;
+}
+.selected2 .col-6 input {
+  border-bottom: none !important;
+}
+.row input label {
+  background-color: transparent !important;
+  font-size: 12px !important;
+}
+.form-floating > label {
+  right: 0;
+  padding: 25px 0 25px 0;
+  background-color: transparent !important;
+  transform-origin: 100% 0 !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  transition: transform 0.1s ease-in-out !important;
+}
+.selected .form-floating > label {
+  font-size: 15px !important;
+}
+.form-floating {
+  background-color: transparent !important;
+}
+.form-floating > .form-control:focus ~ label {
+  color: #222;
+  transform: scale(1) translateY(-1.2rem) translateX(0.15rem) !important;
+}
+.selected .form-floating > .form-control:focus ~ label {
+  color: #222;
+  transform: scale(0.8) translateY(-1.2rem) translateX(0.15rem) !important;
+}
+
+.form-check .form-check-input {
+  margin-left: 0;
+}
+.form-check label {
+  margin-right: 10px;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  margin-top: 1px;
+}
+
+p {
+  font-size: 13px !important;
+}
+
+.class-220 {
+  top: 50%;
+  left: 0;
+  font-size: 14px !important;
+}
+
+.selected2 .form-floating > .form-control:focus ~ label {
+  transform: none !important;
+}
+
+.selected2 .form-floating > label {
+  right: 0;
+  padding: 0.3rem 0 0.3rem 0;
+  background-color: transparent !important;
+  transform-origin: 100% 0 !important;
+  transition: none !important;
 }

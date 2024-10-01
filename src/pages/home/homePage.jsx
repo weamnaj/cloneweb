@@ -12,8 +12,8 @@ import image5 from "./HomePageImages/image5.jpg";
 import { Row, Col } from "react-bootstrap";
 import PopularFilter from "./popularFilter";
 
-import ProductCard from "../../components/card/card";
-/* import ListGroup from "react-bootstrap/ListGroup"; */
+import ProductCard from "../../components/card";
+// import ListGroup from "react-bootstrap/ListGroup";
 
 function HomePage() {
   const [isMobile, setIsMobile] = useState(true);

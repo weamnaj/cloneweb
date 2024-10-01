@@ -1,5 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-function App() {
-  return <></>;
+import Footer from "./components/shared/footer/footer";
+
+export default function App() {
+  return (
+    <>
+      <Footer />
+    </>
+  );
 }
