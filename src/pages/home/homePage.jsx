@@ -10,9 +10,9 @@ import image41 from "./HomePageImages/image4.1.jpg";
 import image5 from "./HomePageImages/image5.jpg";
 
 import { Row, Col } from "react-bootstrap";
-import PopularFilter from "./popularFilter";
+// import PopularFilter from "./popularFilter";
 
-import ProductCard from "../../components/card";
+import ProductCard from "../../components/ui/card";
 // import ListGroup from "react-bootstrap/ListGroup";
 
 function HomePage() {
@@ -109,14 +109,10 @@ function HomePage() {
           </Col>
         </Row>
         <Row className="pt-4">
-          <Col>
-            <PopularFilter />
-          </Col>
+          <Col>{/* <PopularFilter /> */}</Col>
         </Row>
         <Row className="pt-4">
-          <Col>
-            <PopularFilter />
-          </Col>
+          <Col>{/* <PopularFilter /> */}</Col>
         </Row>
         <Row className="pt-4">
           <Col>
