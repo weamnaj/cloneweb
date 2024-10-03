@@ -49,7 +49,10 @@ export default function AllProducts() {
                     (brand, brandIndex) => (
                       <div key={brandIndex}>
                         <p className="fw-bold text-muted p-0 my-1">
-                          <a href="#" className="text-decoration-none">
+                          <a
+                            href="#"
+                            className="text-decoration-none text-muted "
+                          >
                             {!brand || brand === "undefined"
                               ? "No brand"
                               : brand}
