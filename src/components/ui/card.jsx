@@ -69,10 +69,11 @@ export default ProductCard; */
 
 import React from "react";
 import { Card } from "react-bootstrap";
+import "./card.css";
 
 const ProductCard = ({ title, price, imageUrl, link }) => {
   return (
-    <Card className="p-0 m-0 border-0 rounded-0">
+    <Card className="p-0 m-0 bg-secondary rounded-0">
       <a href={link}>
         <Card.Img
           style={{ maxHeight: "100%" }}
@@ -82,8 +83,10 @@ const ProductCard = ({ title, price, imageUrl, link }) => {
         />
       </a>
       <Card.Body style={{ height: "7rem" }}>
-        <Card.Title>{title}</Card.Title>
-        <p>${price}</p>
+        <Card.Title className="fw-normal single-line-ellipsis">
+          {title}
+        </Card.Title>
+        <p className="fw-bold">${price}</p>
       </Card.Body>
     </Card>
   );
