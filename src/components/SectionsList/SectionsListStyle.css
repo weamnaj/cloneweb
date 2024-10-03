@@ -1,0 +1,17 @@
+*{
+    font-size: 15px;
+}
+
+.mainLi{
+    padding-bottom: 50px;
+}
+ul li a{
+    text-decoration: none;
+}
+
+.sub{
+    padding: 15px 0 0 0 ;
+}
+.sub a{
+    font-weight: 400;
+}
