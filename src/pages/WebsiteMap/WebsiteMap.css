@@ -1,0 +1,21 @@
+.website-map {
+  background-color: #faf9f8;
+  color: #222222;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+
+h3 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 14px;
+}
+p {
+  font-size: 12px;
+}
+hr {
+  opacity: 1;
+}

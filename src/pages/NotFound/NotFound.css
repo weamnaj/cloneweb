@@ -5,7 +5,8 @@
 
 .container {
   background-color: #f2f2f2;
-  padding: 50px 150px;
+  padding: 50px 120px;
+  max-width: 1250px;
 }
 
 h5 {
@@ -15,31 +16,20 @@ p {
   font-size: 12px;
 }
 
-@media (min-width: 992px) {
-  /* 4 cards per slide for large screens */
-  .carousel-item .card {
-    flex: 1 0 24%;
-  }
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
-  /* 3 cards per slide for medium screens */
-  .carousel-item .card {
-    flex: 1 0 32%;
+  .container {
+    padding: 50px 30px;
   }
 }
 
 @media (max-width: 767px) {
-  /* 2.5 cards per slide for small screens */
-  .carousel-item .card {
-    flex: 1 0 40%;
+  .container {
+    padding: 50px 30px;
   }
 }
-
-.container {
-  background-color: #f2f2f2;
+.carousel-item {
+  transition: transform 0.2s ease-in-out !important;
 }
 .carousel {
   background-color: white !important;
 }
-
