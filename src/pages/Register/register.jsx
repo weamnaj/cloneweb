@@ -1,16 +1,19 @@
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { FaFacebook, FaGoogle } from "react-icons/fa"; // Importing social media icons
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./register.css"; // Import your custom CSS file
+import "./Register.css"; // Import your custom CSS file
+import { useNavigate } from "react-router-dom";
 
 const RegisterPage = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="registerPage">
       <div className=" mb-4">
         <h3 className="text-right">
           <strong>انشاء حساب جديد</strong>
         </h3>
-        <Container fluid className="d-flex " dir="rtl">
+        <Container fluid className="d-flex ">
           <Row className="w-100 row-style justify-content-center">
             <Col md={6} className="left-div">
               <p>
@@ -49,7 +52,12 @@ const RegisterPage = () => {
                 </p>
                 <p>
                   تسجيل بياناتك يعني موافقتك على .
-                  <a href="">الشروط والأحكام و سياسة الخصوصية.</a>
+                  <a
+                    onClick={() => navigate(`/PrivacyPolicy`)}
+                    style={{ cursor: "pointer" }}
+                  >
+                    الشروط والأحكام و سياسة الخصوصية.
+                  </a>
                 </p>
                 <Button
                   variant="primary"
@@ -93,7 +101,7 @@ const RegisterPage = () => {
                   variant="outline-dark"
                   className="mb-2 social-media-buttons "
                   // style={{ width: '100%'  }}
-                  onClick={() => (window.location.href = "/login")}
+                  onClick={() => navigate(`/login`)}
                 >
                   سجل هنا
                 </Button>

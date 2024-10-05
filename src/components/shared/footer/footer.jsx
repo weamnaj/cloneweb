@@ -21,7 +21,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer dir="rtl" className="px-2 py-4">
+      <footer className="px-2 py-4">
         <div className="text-center d-flex d-md-none justify-content-center lang mb-3">
           <span className="px-2 active">العربية</span>
           <span className="px-2 non-active">ENGLISH</span>
