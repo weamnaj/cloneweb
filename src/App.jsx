@@ -1,15 +1,12 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Footer from "./components/shared/footer/footer";
-/* import AllProducts from "./pages/AllProducts/AllProducts"; */
-import HomePage from "./pages/home/homePage";
+import { RouterProvider } from "react-router-dom";
+import { routes } from "./routersConfi";
 
 export default function App() {
   return (
     <>
-      <HomePage />
-      {/*  <AllProducts /> */}
-      <Footer />
+      <RouterProvider router={routes} />
     </>
   );
 }
