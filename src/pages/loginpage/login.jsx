@@ -1,16 +1,19 @@
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { FaFacebook, FaGoogle } from "react-icons/fa"; // Importing social media icons
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./register.css"; // Import your custom CSS file
+import "./Register.css"; // Import your custom CSS file
+import { useNavigate } from "react-router-dom";
 
 const LoginPage = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="loginPage">
       <div className=" mb-4">
         <h4 className="text-right">
           <strong>تسجيل دخول </strong>
         </h4>
-        <Container fluid className="d-flex " dir="rtl">
+        <Container fluid className="d-flex ">
           <Row className="w-100 row-style justify-content-center">
             <Col md={6} className="left-div">
               <p>
@@ -42,7 +45,9 @@ const LoginPage = () => {
                 >
                   تسجيل الدخول
                 </Button>
-                <a href="/forgot-password">هل نسيت كلمه السر؟</a>
+                <a onClick={() => navigate(`/forgetpassword`)}>
+                  هل نسيت كلمه السر؟
+                </a>
               </Form>
             </Col>
 
@@ -78,7 +83,7 @@ const LoginPage = () => {
                   variant="outline-dark"
                   className="mb-2 social-media-buttons "
                   // style={{ width: '100%'  }}
-                  onClick={() => (window.location.href = "/login")}
+                  onClick={() => navigate(`/register`)}
                 >
                   سجل هنا
                 </Button>

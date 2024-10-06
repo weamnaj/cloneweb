@@ -8,7 +8,7 @@ const ForgotPassword = () => {
         <h4 className="text-right">
           <strong>نسيت كلمة المرور؟</strong>
         </h4>
-        <Container fluid className="d-flex" dir="rtl">
+        <Container fluid className="d-flex">
           <Row className="w-100 row-style justify-content-center">
             <Col md={6}>
               <p>

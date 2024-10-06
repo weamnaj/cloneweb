@@ -3,7 +3,7 @@ import "./Questions.css";
 
 export default function Questions() {
   return (
-    <section className="questions py-5 px-4" dir="rtl">
+    <section className="questions py-5 px-4">
       <h3 className="p-0 m-0">الأسئلة المتكررة</h3>
       <hr className="mt-2" />
 
