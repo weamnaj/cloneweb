@@ -8,15 +8,15 @@ import HeaderMenu from "./components/layout/header/headerMenu";
 // import LoginPage from "./pages/loginpage/login";
 // import ForgotPassword from "./pages/loginpage/forgetpassword";
 // import ProductPage from "../product details/Product_detail";
-import Auth from "../simple authorize form/auth";
-// import Productdet from "../product details/productdet";
+// import Auth from "../simple authorize form/auth";
+import Productdet from "./pages/product details/productdet";
 function App() {
   return <>
  <Header/>
  <HeaderMenu/>
- <Auth/>
+ {/* <Auth/> */}
  {/* <ProductPage/> */}
- {/* <Productdet/> */}
+ <Productdet/>
  {/* <LoginPage/>
  <ForgotPassword/> */}
   </>;

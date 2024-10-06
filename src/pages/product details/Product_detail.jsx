@@ -21,7 +21,7 @@ const Product_detail = () => {
         {/* Map through products array */}
         {products.length > 0 && products.filter((product) => product.id === desiredProductId).map((product) => (
           <Col key={product.id} sm={12} md={6} lg={4} xl={3} className="mb-4">
-            <Card className="p-0 m-0 border-0">
+            <Card >
               <a href="">
                 <Card.Img
                   style={{ maxHeight: "100%" }}
