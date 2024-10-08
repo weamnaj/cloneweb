@@ -1,17 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.left-div,
-.right-div {
+.loginPage .left-div,
+.loginPage .right-div {
   padding: 20px;
   border: #842a2a;
   /* Add a border around divs */
-
 }
 
-.social-media-buttons {
+.loginPage .social-media-buttons {
   display: block;
   gap: 15px;
   /* Space between icons */
@@ -21,13 +15,13 @@
   width: 300px;
 }
 
-.social-media-buttons a {
+.loginPage .social-media-buttons a {
   color: #000;
   /* Change color as needed */
   text-decoration: none;
 }
 
-.border-top-only {
+.loginPage .border-top-only {
   border: none;
   /* Remove all borders */
   border-bottom: 1px solid rgb(0, 0, 0);
@@ -39,7 +33,7 @@
   padding-top: 20px;
 }
 
-.btn_style {
+.loginPage .btn_style {
   background-color: #000000;
   color: white;
   border-radius: 0;
@@ -53,28 +47,31 @@
   border-radius: 5px;
 }
 
-.row-style {
-  
+.loginPage .row-style {
   margin-top: 100px;
   border-top: 0.5px solid #9f9292;
 }
-.text-right {
+.loginPage .text-right {
   text-align: right;
   margin-top: 20px;
 }
 
-.row-style {
-  margin-top: 20px; 
+.loginPage .row-style {
+  margin-top: 20px;
 }
 
 @media (max-width: 768px) {
-  .left-div, .right-div {
+  .loginPage .left-div,
+  .loginPage .right-div {
     text-align: center; /* Center text in tablet view */
   }
-  .social-media-buttons{width: 100%;}
+  .loginPage .social-media-buttons {
+    width: 100%;
+  }
 }
 @media (max-width: 576px) {
-  .left-div, .right-div {
-    text-align: center; 
+  .loginPage .left-div,
+  .loginPage .right-div {
+    text-align: center;
   }
 }

@@ -1,0 +1,39 @@
+.cart-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .cart-items-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .item-details {
+    font-weight: bold;
+  }
+  
+  .remove-btn, .clear-cart-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .remove-btn:hover, .clear-cart-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .total-price {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
